@@ -7,22 +7,22 @@
 	@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto');
     
     .violet-background {
-        background: #80809a;
         color: white;
+        background: #80809a;
     }
     
     .header-section {
         position: relative;
         height: auto;
         max-height: 1000px;
-        padding: 4% 10% 0;
+        /*     padding: 4% 10% 0; */
         /*     overflow: hidden; */
     }
     
     .header-section .white-btn {
         border: 2px solid #3980ff;
         padding: 12px 55px;
-        margin: 48px 0px;
+        margin: 35px 0px;
         background: white;
     }
     
@@ -33,6 +33,7 @@
     
     img.view {
         max-width: 100%;
+        padding-top: 10%;
         /*   border:1px solid red; */
     }
     
@@ -49,7 +50,7 @@
     }
     .app-store
     {
-    	padding-top: 50px;
+    	width: 15%;
     }
     a:hover, a:visited, a:link, a:active
     {
@@ -57,14 +58,22 @@
     	color: #191c21;
     	font-family: 'Roboto', sans-serif;
     }
-
+    h2
+    {
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    }
+    .info
+    {
+    	background: #80809a;
+    }
     @media only screen and (max-width:768px) {}
 </style>
 
 <body>
     <div class="violet-background header-section">
         <div class="container">
-            <div class="row">
+            <div class="row info">
                 <div class="col-md-7 col-sm-12">
                     <div class="text-block header-text-block">
                         <h2 class="white-text">Parents have a 360 view of all activity, across all devices, at school and at home.
@@ -75,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-12">
+                <div class="col-md-5 col-sm-12 ">
                     <img class="view img-responsive" src="img/360+View.png" alt="360 View" />
                 </div>
             </div>
